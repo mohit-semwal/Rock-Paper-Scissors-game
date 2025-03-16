@@ -1,0 +1,109 @@
+body {
+    background: #000;
+}
+
+.mainDiv {
+    border: 3px solid blue;
+    margin: 100px auto;
+    width: 50%;
+    height: 30rem;
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 20px 0px 0px 0px;
+}
+
+#selection {
+    width: 20rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.container button {
+    width: 12rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+}
+
+#Quit {
+    position: relative;
+    bottom: 12rem;
+    left: 43%;
+    display: none;
+
+}
+
+#Quit button {
+    width: 12rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(9, 25, 190);
+    color: white;
+}
+
+.resultDiv {
+    text-align: center;
+    color: red;
+}
+
+#playGame {
+    text-align: center;
+}
+
+#playGame h1 {
+    text-align: center;
+    font-size: 5.5rem;
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: orange;
+    }
+
+    100% {
+        color: red;
+    }
+
+    /* End with the starting color */
+}
+
+#playGame a {
+    text-decoration: none;
+    font-size: 4.5rem;
+    animation: Change 1s infinite;
+}
+
+@keyframes Change {
+
+    0% {
+        color: blue;
+    }
+
+    25% {
+        color: orange;
+    }
+
+    /* End with the starting color */
+}

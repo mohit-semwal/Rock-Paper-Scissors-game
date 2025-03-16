@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="playGame">
+        <h1>You want to play Game</h1>
+        <a id="link" href="#">Click Here</a>
+    </div>
+
+
+
+
+
+    <div class="mainDiv">
+        <div class="container">
+            <select id="selection">
+                <option value="">----SELECT YOUR----</option>
+                <option id="Stone" value="stone">Stone</option>
+                <option id="Paper" value="paper">Paper</option>
+                <option id="scissor" value="scissor">scissor</option>
+            </select>
+
+            <button id="submitBtn">Submit</button>
+        </div>
+        <div class="resultDiv">
+            <h1 id="userChoise"></h1>
+            <h1 id="computerChoise"></h1>
+            <h1 id="announcement" style="color: rgb(8, 0, 255);"></h1>
+        </div>
+    </div>
+
+    <div id="Quit">
+        <button>Quit Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
